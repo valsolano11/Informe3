@@ -1,0 +1,17 @@
+#Ejercicio 9
+
+nombre = input("Ingrese nombre cliente: ")
+monto = float(input("Ingrese monto a cambiar en soles: "))
+
+print("Seleccionar moneda de cambio")
+print("[1]usd [2]Eur")
+moneda = int(input("> "))  # Leemos la opción del usuario (1 o 2)
+
+if moneda == 1:
+    cambio = monto / 2.35
+    simbolo = "$"
+else:
+    cambio = monto / 3.58
+    simbolo = "€"  # Cambié el '?' por el símbolo real de Euros para que se vea mejor
+
+print("moneda cambiada a", simbolo, cambio)

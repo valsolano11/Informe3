@@ -1,0 +1,10 @@
+#Ejercicio 13
+nombre = str("juan")
+edad = int(18)
+estatura = float(1.83)
+criterio = bool(False)
+
+print(nombre, type(nombre))
+print(edad, type(edad))
+print(estatura, type(estatura))
+print(criterio, type(criterio))

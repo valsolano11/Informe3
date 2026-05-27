@@ -1,0 +1,10 @@
+#Ejercicio 8
+
+# Usamos float por si el usuario ingresa un número con decimales
+num = float(input("ingresar numero: "))
+
+
+# Condicional: Si el número es mayor a 500, calcula y muestra el 18%
+if num > 500:
+    porcentaje = num * (18 / 100)
+    print("El 18% es:", porcentaje)

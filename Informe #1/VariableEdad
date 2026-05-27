@@ -1,0 +1,5 @@
+#Ejercicio 12
+
+Edad = 18
+
+print(Edad)

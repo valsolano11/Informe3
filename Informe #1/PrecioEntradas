@@ -1,0 +1,12 @@
+#Ejercicio 7
+# Usamos float para el precio (P) por si incluye decimales
+p = float(input("Ingrese el precio de la entrada: "))
+# La edad siempre se maneja como un número entero (int)
+edad = int(input("Ingrese la edad del cliente: "))
+
+
+# Condicional: Si es menor de 10 años, se aplica el 25% de descuento
+if edad < 10:
+    p = p - (p * 0.25)
+
+print("El monto final a pagar es", p)

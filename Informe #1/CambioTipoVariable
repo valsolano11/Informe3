@@ -1,0 +1,9 @@
+#Ejercicio 15
+
+precioproducto = int(100)
+
+print(precioproducto, type(precioproducto))
+
+precioproducto = float(100.50)
+
+print(precioproducto, type(precioproducto))

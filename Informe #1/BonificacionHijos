@@ -1,0 +1,19 @@
+#Ejercicio 6
+nombre = input("Ingrese el nombre del trabajador: ")
+basico = float(input("Ingrese el sueldo basico: "))
+hijos = int(input("Ingrese el numero de hijos: "))
+
+
+# Inicializamos la bonificación en 0
+bonificacion = 0.0
+
+# Condicional: Si el trabajador tiene hijos, se calcula el 7%
+if hijos > 0:
+    bonificacion = basico * 0.07
+
+# Cálculo del sueldo final
+sueldo_final = basico + bonificacion
+
+
+print("La bonificacion es :", bonificacion)
+print("El sueldo final es :", sueldo_final)

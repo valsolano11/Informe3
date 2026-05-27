@@ -1,0 +1,8 @@
+#Ejercicio 14 
+precio= 50
+
+print(precio)
+
+precio = 60
+
+print(precio)

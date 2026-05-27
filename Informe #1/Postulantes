@@ -1,0 +1,19 @@
+#Ejercicio 10
+
+sexo = input("ingresar sexo del postulante: ")
+edad = int(input("ingresar edad del postulante: "))
+
+if sexo == "Femenino":
+    # Bloque para sexo femenino
+    if edad < 23:
+        categoria = "FA"
+    else:
+        categoria = "FB"
+else:
+    # Bloque para cualquier otro caso (sexo masculino)
+    if edad < 25:
+        categoria = "MA"
+    else:
+        categoria = "MB"
+
+print("categoria del postulante:", categoria)

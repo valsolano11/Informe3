@@ -1,0 +1,12 @@
+#Ejercicio 20 Collab    
+
+asignatura1=str(input("Dime la nota de la asignatura 1:"))
+
+nota1=float(input("Ingresa tu nota"))
+nota2=float(input("Ingresa tu nota,"))
+nota3=float(input("Ingresa tu nota,"))
+nota4=float(input("Ingresa tu nota,"))
+
+promedio=(nota1+nota2+nota3+nota4)/4
+print(promedio)
+print(asignatura1)
