@@ -27,7 +27,7 @@ Ramas del repositorio
 
 Se usan ramas separadas para trabajar cada informe de forma aislada:
 
-- `Sebas` — Rama con los archivos del Informe 1.
+- `Informe1` — Rama con los archivos del Informe 1.
 - `Informe2` — Rama con los archivos del Informe 2.
 - `Informe3` — Rama con los archivos del Informe 3 .
 
